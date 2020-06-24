@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="RU">
 <head>
-	<title>Gavno</title>
+	<title>Building</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="fonts/opensans.css">
 	<link rel="stylesheet" type="text/css" href="style.css?v=3">
