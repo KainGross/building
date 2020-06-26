@@ -34,7 +34,6 @@ header {
 	        flex-direction: column;
 	-webkit-justify-content: space-between;
 	        justify-content: space-between;
-	padding: 0px 405px;
 	padding-bottom: 320px;
 }
 .h2title {
@@ -46,7 +45,7 @@ header {
 	text-transform: uppercase;
 	color: #000000;
 	text-align: center;
-	margin-bottom: 65px;
+	margin-bottom: 25px;
 }
 .head1 {
 	display: flex;
@@ -60,6 +59,7 @@ header {
 	margin-top: 20px;
 	-webkit-justify-content: space-between;
 	        justify-content: space-between;
+	padding: 0 405px;
 }
 .menu {
 	width: 50px;
@@ -96,7 +96,6 @@ header {
 }
 .oldfag {
 	width: 1110px;
-	height: 300px;
 	padding: 57px 130px;
 	background-color: #F7F7F7;
 	display: flex;
@@ -113,6 +112,8 @@ header {
 	margin-top: -150px;
 }
 .ofitem {
+	height: 190px;
+	width: 190px;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
@@ -148,14 +149,12 @@ header {
 	color: #999999;
 }
 .biggest {
-	height: 1080px;
 	padding: 250px 0 150px;
 	margin-top: -150px;
 }
 .bcontainer {
-	margin: auto;
 	width: 1110px;
-	height: 700px;
+	margin: auto;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
@@ -170,6 +169,7 @@ header {
 }
 .btitle {
 	color: #404149 !important;
+	margin-bottom: 60px;
 }
 .bitems {
 	display: flex;
@@ -185,7 +185,6 @@ header {
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
-	height: 600px;
 	width: 350px;
 }
 .biimg {
@@ -220,9 +219,8 @@ header {
 }
 .smart {
 	width: 100%;
-	height: 180px;
-	padding: 0 405px;
 	display: flex;
+	padding: 40px 0;
 	-webkit-flex-direction: row;
 	    -ms-flex-direction: row;
 	        flex-direction: row;
@@ -254,12 +252,14 @@ header {
 	color: #FFFFFF;
 }
 .stext {
+	margin-left: 405px;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
 .srequest {
+	margin-right: 405px;
 	height: 50px;
 	width: 175px;
 	background: #FFF;
@@ -284,8 +284,7 @@ header {
 	padding: 0 30px;
 }
 .shodelaem {
-	height: 940px;
-	padding: 150px 450px;
+	padding: 150px 0;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
@@ -299,7 +298,7 @@ header {
 }
 .quests {
 	width: 1110px;
-	height: 530px;
+	margin-top: 30px;
 	display: flex;
 	-webkit-flex-direction: row;
 	    -ms-flex-direction: row;
@@ -340,12 +339,25 @@ header {
 }
 .portfolio {
 	width: 100%;
-	height: 800px;
-	background: url("img/horor.png");
+	display: flex;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-align-content: center;
+	        align-content: center;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.portfolio img {
+	width: 25%;
 }
 .faq {
-	height: 750px;
-	padding: 150px 405px;
+	padding: 150px 0;
 }
 .ftitle {
 	font-family: Oswald;
@@ -360,6 +372,8 @@ header {
 	margin-bottom: 50px;
 }
 .questions {
+	width: 1110px;
+	margin: auto;
 	display: flex;
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
@@ -368,7 +382,7 @@ header {
 	        justify-content: space-between;
 }
 .question {
-	margin-bottom: 40px;
+	margin-top: 40px;
 }
 .qntitle {
 	font-family: Oswald;
@@ -401,10 +415,9 @@ header {
 	margin-right: 15px;
 }
 .partners {
+	padding: 100px 0;
 	width: 100%;
-	height: 360px;
 	background: #404149;
-	padding: 100px 405px;
 	text-align: center;
 }
 .ptitle {
@@ -417,6 +430,8 @@ header {
 	color: #FFFFFF;
 }
 .plist {
+	width: 1110px;
+	margin: auto;
 	margin-top: 60px;
 	display: flex;
 	-webkit-flex-direction: row;
@@ -430,9 +445,12 @@ header {
 	        align-content: center;
 }
 .reviews {
-	padding: 150px 405px;
+	padding: 150px 0;
 }
 .revlist {
+	width: 1110px;
+	margin: auto;
+	margin-top: 54px;
 	display: flex;
 	-webkit-flex-direction: row;
 	    -ms-flex-direction: row;
@@ -443,10 +461,6 @@ header {
 	        align-items: center;
 	-webkit-align-content: center;
 	        align-content: center;
-}
-.review {
-	width: 350px;
-	height: 320px;
 }
 .revtext {
 	width: 350px;
@@ -489,10 +503,12 @@ header {
 	color: #F7654A;
 }
 .contacts {
-	height: 550px;
-	padding: 100px 405px 150px;
+	padding: 100px 0 150px;
 }
 .clist {
+	width: 1110px;
+	margin: auto;
+	margin-top: 50px;
 	display: flex;
 	-webkit-flex-direction: row;
 	    -ms-flex-direction: row;
@@ -548,12 +564,14 @@ header {
 	color: #F7654A;
 }
 footer {
+	padding: 0 405px;
 	background: #404149;
 	height: 80px;
-	padding: 30px 405px;
 	display: flex;
 	-webkit-justify-content: space-between;
 	        justify-content: space-between;
+	-webkit-align-items: center;
+	        align-items: center;
 	font-family: Open Sans;
 	font-style: normal;
 	font-weight: normal;
